@@ -1,21 +1,21 @@
-# 📄 PDF Semantic Search Engine — REST API
+#  PDF Semantic Search Engine — REST API
 
 A FastAPI-based REST API that allows users to **upload PDF files** and perform **semantic search** on their content using HuggingFace embeddings and Qdrant vector database.
 
 ---
 
-## 🚀 Features
+##  Features
 
-- 📤 Upload PDF files via REST API
-- 🧠 Automatically extract and chunk text from PDFs
-- 🔢 Generate semantic embeddings using HuggingFace (`all-MiniLM-L6-v2`)
-- 🗄️ Store embeddings in Qdrant vector database
-- 🔍 Perform semantic similarity search with ranked results
-- ⚡ Built with FastAPI for high performance
+-  Upload PDF files via REST API
+-  Automatically extract and chunk text from PDFs
+-  Generate semantic embeddings using HuggingFace (`all-MiniLM-L6-v2`)
+-  Store embeddings in Qdrant vector database
+-  Perform semantic similarity search with ranked results
+-  Built with FastAPI for high performance
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Tool | Purpose |
 |------|---------|
@@ -29,7 +29,7 @@ A FastAPI-based REST API that allows users to **upload PDF files** and perform *
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 PDF_Search_Engine/
@@ -46,7 +46,7 @@ PDF_Search_Engine/
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 ### 1. Clone the Repository
 ```bash
@@ -77,7 +77,7 @@ pip install fastapi uvicorn pypdf python-dotenv qdrant-client langchain-huggingf
 
 ---
 
-## ▶️ Running the API
+##  Running the API
 
 ```bash
 python main.py
@@ -196,7 +196,7 @@ Ranked results returned to user
 
 ---
 
-## 🧪 Testing with Swagger UI
+##  Testing with Swagger UI
 
 1. Open browser and go to `http://127.0.0.1:8000/docs`
 2. Click on `POST /pdf/Upload_PDF_Here` → **Try it out** → Upload your PDF → **Execute**
@@ -204,7 +204,7 @@ Ranked results returned to user
 
 ---
 
-## 📦 Dependencies
+##  Dependencies
 
 ```txt
 fastapi
@@ -223,7 +223,7 @@ pip install fastapi uvicorn pypdf python-dotenv qdrant-client langchain-huggingf
 
 ---
 
-## ⚠️ Common Errors & Solutions
+##  Common Errors & Solutions
 
 | Error | Cause | Solution |
 |-------|-------|----------|
@@ -234,13 +234,13 @@ pip install fastapi uvicorn pypdf python-dotenv qdrant-client langchain-huggingf
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Your Name**
 - GitHub: [@your-username](https://github.com/your-username)
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the **MIT License**.
